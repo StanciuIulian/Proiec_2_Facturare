@@ -569,4 +569,4 @@ while interactiune_program:
             elif optiune_int == 0:
                 interactiune_program = False
     except ValueError:
-        print("Optiunea ta nu o obtiune valida!")
+        print("Optiunea ta nu e o obtiune valida!")
