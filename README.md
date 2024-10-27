@@ -1,19 +1,43 @@
-# Aplicatie facturare
+# Aplicație Facturare
 
-Este o aplicate de emitere facturi.
+Este o aplicație de emitere facturi.
 
-Utilizatorul interactioneaza cu programul, avand urmatoarele meniuri:
+## Descriere
 
-1. Client
-2. Produs
-3. Factur
+Utilizatorul interacționează cu programul prin următoarele meniuri:
 
-In aceste meniuri Utilizatorul poate introduce, sterge, afisa de la tastatura Clienti, Produse, Facturi; 
-poate genera facturi intr-un fisier text.
-Informatiile introduse se vor stoca intr-o baza de date
+1. **Client**
+2. **Produs**
+3. **Factură**
 
-Pentru utilzare: 
-- se cloneaza repozitory-u intr-un mediu virtual compatibil cu Python;
-- se instaleaza din terminal fisierul requirments prin comanda: pip install -r .\requirments.txt
-- se va intra in interactiunea cu programul print comanda: python Program_facturare.py 
+În aceste meniuri, utilizatorul poate:
+- Introduce clienți
+- Șterge clienți
+- Afișa clienți
+- Introduce produse
+- Șterge produse
+- Afișa produse
+- Genera facturi
+    - Utilizatorul poate genera facturi într-un format frumos și bine structurat.
+- Salva facturile într-un fișier text
+
+Informațiile introduse se vor stoca într-o bază de date.
+
+## Cerințe
+
+Pentru a utiliza aplicația:
+
+1. Clonează repository-ul într-un mediu virtual compatibil cu Python.
+
+2. Instalează dependențele din terminal folosind comanda:
+
+   ```bash
+   pip install -r requirements.txt
+
+3. Începe interacțiunea cu programul rulând:
+
+   ```bash
+   python Program_facturare.py     
+
+
 
